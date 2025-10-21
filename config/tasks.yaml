@@ -1,0 +1,6 @@
+
+summarize_topic:
+  description: |-
+    List all techdoc entities found in the backstage server
+  expected_output: "Best possible answer."
+  agent: "techdocs_reader"

@@ -1,0 +1,14 @@
+
+techdocs_reader:
+  role: "TechDocs Reader"
+  goal: "Fetch all techdocs in the backstage server"
+  
+  backstory: "A reader agent that fetches the list of techdocs in the backstage server."
+  
+  model: ""
+  llmAPIURL: ""
+  llmAPIKeyEnvVar: ""
+  verbose: true
+  tools:
+    - "backstage_mcp_tools"
+    
